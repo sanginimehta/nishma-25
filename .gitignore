@@ -19,12 +19,7 @@ Desktop.ini
 *.log
 npm-debug.log*
 
-# Videos over GitHub's 100 MB limit (keep locally; add smaller versions or host elsewhere to fix links)
+# Keep these out of repo (over 100 MB) – use .mp4 versions instead
 videos/Sangini(2).mov
-videos/Sangini.mov
 videos/Sanhit.mov
-videos/Mehak.MOV
-# Also exclude if re-added
-videos/Srika.mp4
-videos/Samiksha.MOV
-videos/Shrey.MOV
+
