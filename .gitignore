@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Videos over GitHub's 100 MB limit (keep locally; add smaller versions or host elsewhere to fix links)
+videos/Sangini(2).mov
+videos/Sangini.mov
+videos/Sanhit.mov
+videos/Mehak.MOV
+# Also exclude if re-added
+videos/Srika.mp4
+videos/Samiksha.MOV
+videos/Shrey.MOV

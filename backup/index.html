@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy 25th Nishma!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Playfair+Display:wght@600;700&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Tab navigation -->
+  <nav class="tab-nav" aria-label="Main">
+    <button type="button" class="tab-btn active" data-tab="home" id="tab-home">Home</button>
+    <button type="button" class="tab-btn" data-tab="moments" id="tab-moments">Iconic Moments</button>
+    <button type="button" class="tab-btn" data-tab="wishes" id="tab-wishes">Wishes & Music</button>
+  </nav>
+
+  <main class="main-content">
+    <!-- ========== TAB 1: Home — Happy Birthday Nishma, 25 emojis, popping text ========== -->
+    <section class="tab-panel active" id="panel-home" aria-labelledby="tab-home">
+      <div class="home-emojis" aria-hidden="true">
+        <span class="home-emoji">🎂</span><span class="home-emoji">🎈</span><span class="home-emoji">🎉</span><span class="home-emoji">🥳</span><span class="home-emoji">🎊</span>
+        <span class="home-emoji">✨</span><span class="home-emoji">🌟</span><span class="home-emoji">💫</span><span class="home-emoji">🎁</span><span class="home-emoji">🪅</span>
+        <span class="home-emoji">🎀</span><span class="home-emoji">💝</span><span class="home-emoji">🌸</span><span class="home-emoji">🌷</span><span class="home-emoji">🦋</span>
+        <span class="home-emoji">💖</span><span class="home-emoji">🍾</span><span class="home-emoji">🥂</span><span class="home-emoji">🎆</span><span class="home-emoji">🎇</span>
+        <span class="home-emoji">💐</span><span class="home-emoji">🌺</span><span class="home-emoji">🩷</span><span class="home-emoji">💕</span><span class="home-emoji">🎵</span>
+      </div>
+      <div class="home-text">
+        <h1 class="home-title">
+          <span class="pop-word">Happy</span>
+          <span class="pop-word">Birthday</span>
+          <span class="pop-word">Nishma!</span>
+        </h1>
+      </div>
+    </section>
+
+    <!-- ========== TAB 2: Iconic Nishma Moments — videos & pictures over the years ========== -->
+    <section class="tab-panel" id="panel-moments" aria-labelledby="tab-moments" hidden>
+      <div class="panel-inner">
+        <h2 class="panel-title">Iconic Nishma Moments</h2>
+        <p class="panel-intro">Videos and pictures of Nishma over the years.</p>
+        <div class="moments-grid">
+          <div class="moment-placeholder">Photo or video</div>
+          <div class="moment-placeholder">Photo or video</div>
+          <div class="moment-placeholder">Photo or video</div>
+          <div class="moment-placeholder">Photo or video</div>
+          <div class="moment-placeholder">Photo or video</div>
+          <div class="moment-placeholder">Photo or video</div>
+        </div>
+        <p class="hint">Replace placeholders with <code>&lt;img src="photo.jpg" alt="..." class="moment-img"&gt;</code> or <code>&lt;video src="clip.mp4" controls class="moment-vid"&gt;&lt;/video&gt;</code></p>
+      </div>
+    </section>
+
+    <!-- ========== TAB 3: Wishes & Music — Spotify playlist + 20 birthday wish videos ========== -->
+    <section class="tab-panel" id="panel-wishes" aria-labelledby="tab-wishes" hidden>
+      <div class="panel-inner">
+        <h2 class="panel-title">Wishes & Music</h2>
+
+        <div class="spotify-wrap">
+          <h3 class="Songs that remind us of you">Music</h3>
+          <iframe data-testid="embed-iframe" class="spotify-embed" src="https://open.spotify.com/embed/playlist/4UaWLfMvVkbXdBxfZomoDr?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy" title="Spotify playlist"></iframe>
+        </div>
+
+        <h3 class="wishes-subtitle">Birthday wish videos</h3>
+        <p class="videos-intro">Click a card to watch each message.</p>
+        <div class="video-grid" id="video-grid">
+          <div class="wish-card" data-video="../videos/Srika.mp4" data-from="Srika">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Srika</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-02.mp4" data-from="Person 2">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 2</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-03.mp4" data-from="Person 3">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 3</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-04.mp4" data-from="Person 4">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 4</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-05.mp4" data-from="Person 5">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 5</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-06.mp4" data-from="Person 6">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 6</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-07.mp4" data-from="Person 7">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 7</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-08.mp4" data-from="Person 8">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 8</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-09.mp4" data-from="Person 9">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 9</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-10.mp4" data-from="Person 10">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 10</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-11.mp4" data-from="Person 11">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 11</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-12.mp4" data-from="Person 12">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 12</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-13.mp4" data-from="Person 13">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 13</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-14.mp4" data-from="Person 14">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 14</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-15.mp4" data-from="Person 15">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 15</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-16.mp4" data-from="Person 16">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 16</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-17.mp4" data-from="Person 17">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 17</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-18.mp4" data-from="Person 18">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 18</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-19.mp4" data-from="Person 19">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 19</span>
+          </div>
+          <div class="wish-card" data-video="../videos/wish-20.mp4" data-from="Person 20">
+            <span class="wish-play" aria-hidden="true">▶</span>
+            <span class="wish-from">From: Person 20</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Video modal (for wish videos on tab 3) -->
+  <div class="video-modal" id="video-modal" hidden>
+    <div class="video-modal-backdrop" id="modal-backdrop"></div>
+    <div class="video-modal-content">
+      <button type="button" class="video-modal-close" id="modal-close" aria-label="Close">×</button>
+      <video class="video-modal-player" id="modal-video" controls playsinline preload="auto"></video>
+      <p class="video-modal-error" id="modal-video-error" hidden></p>
+      <p class="video-modal-from" id="modal-from"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
